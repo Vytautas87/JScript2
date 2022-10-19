@@ -1,5 +1,0 @@
-let tekstas = prompt("Įveskite pirmą žodį");
-let tekstas1 = prompt("Įveskite antrą žodį")
-
-let arYraTekste = tekstas.toLocaleLowerCase().includes(tekstas1.toLocaleLowerCase());
-console.log("Ar tekstai vienodi " + arYraTekste);
